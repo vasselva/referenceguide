@@ -6,8 +6,9 @@
 
 ## Vault
 
-- [ vault jwt backend](./vault/vault_jwt.md)
+- [vault jwt backend](./vault/vault_jwt.md)
 - [Vault cert-manager Integration](./vault/vault_certmanager.md)
+- [Vault AppRole Authentication](https://learn.hashicorp.com/vault/identity-access-management/iam-authentication)
 
 ## Containers
 
