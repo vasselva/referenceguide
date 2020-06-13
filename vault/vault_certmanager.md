@@ -35,6 +35,7 @@ Details on [cert manager](https://github.com/jetstack/cert-manager)
 vault secrets enable pki 
 vault secrets tune -default-lease-ttl=2160h -max-lease-ttl=87600h pki
 vault write pki/root/generate/internal common_name=test.com ttl=87600h
+vault write pki/roles/cert-manager allowed_domains=test.com allow_subdomains=true max_ttl=8760
 ```
 #### Create Vault Policies
 ```
@@ -52,7 +53,7 @@ Kubernetes authenticate to Vault before signing the CSR from cert manager
 
 ```
 vault policy write cert-manager-pki cert-manager-pki.hcl
-vault write pki/roles/cert-manager allowed_domains=test.com allow_subdomains=true max_ttl=8760
+vault write auth/approle/role/cert-manager-role policies=cert-manager-pki
 vault read auth/approle/role/cert-manager-role/role-id
 vault write -f auth/approle/role/cert-manager-role/secret-id
 ```
@@ -64,8 +65,9 @@ Capture the Role ID and Secret ID for later use
 ```
 vault policy read cert-manager-pki
 ```
-```
+
 Capture Vault Role ID and Secret ID to test Authentication
+```
 vault write auth/approle/login role_id=298bc94c-30f9-5c71-32e5-9ac5c3429eb4  secret_id=f3de7834-6a23-a67f-38ff-35710ae9444c
 ```
 ```
