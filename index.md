@@ -10,8 +10,8 @@
 
 ## Vault
 
-- [vault jwt backend](./vault/vault_jwt.md)
-- [Vault cert-manager Integration](./vault/vault_certmanager.md)
+- [vault jwt backend](./vault/vault_jwt.md) #Internal
+- [Vault cert-manager Integration](./vault/vault_certmanager.md) //Internal
 - [Vault AppRole Authentication](https://learn.hashicorp.com/vault/identity-access-management/iam-authentication)
 
 ## Containers
@@ -28,8 +28,8 @@
 - [AWS re-invent videos](https://reinventvideos.com/) 
 - [AWS Local Lambda](https://github.com/lambci/docker-lambda/)
 - [Lambda Dockerfile](./docker.md)
-- [Secure API gateway Lambda Authoriser - CDK](https://github.com/vasselva/secure-api-gateway-auth0-lambda-custom-authorizer.git)
+- [Secure API gateway Lambda Authoriser - CDK ](https://github.com/vasselva/secure-api-gateway-auth0-lambda-custom-authorizer.git) #Internal
 
-## Hardening guides
+## Secure Configuration
 
-- [Hardening guides](https://github.com/dev-sec) #Automation of Hardening guides
+- [Automation of Hardening baselines](https://github.com/dev-sec) #Automation of Hardening guides
