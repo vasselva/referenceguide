@@ -4,6 +4,10 @@
 - [MITRE attack framework](https://attack.mitre.org/)
 - [Cloud Security Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
 
+## Identity and Access Management
+- [ OAuth explained-1](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
+- [ OAuth explained-2](https://www.youtube.com/watch?v=PfvSD6MmEmQ&list=PLNYaEAlwFjtwo6IqfBRr7-z2PuCE4ER8Q)
+
 ## Vault
 
 - [vault jwt backend](./vault/vault_jwt.md)
@@ -28,4 +32,4 @@
 
 ## Hardening guides
 
-- [Hardening guides](https://github.com/dev-sec)
+- [Hardening guides](https://github.com/dev-sec) #Automation of Hardening guides
