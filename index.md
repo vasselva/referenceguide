@@ -30,3 +30,7 @@
 ## Secure Configuration
 
 - [Automation of Hardening baselines](https://github.com/dev-sec) 
+
+## Certification
+
+- [ CISSP Pratice test - Boson](https://www.boson.com/practice-exam/cissp-isc2-practice-exam)
