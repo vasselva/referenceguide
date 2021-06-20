@@ -7,6 +7,7 @@ layout: default
 - [owasp top 10 2017](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)
 - [MITRE attack framework](https://attack.mitre.org/)
 - [Cloud Security Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
+- [PKI Explained Clearly](https://smallstep.com/blog/everything-pki/)
 
 ## Vault
 
