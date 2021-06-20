@@ -4,6 +4,7 @@
 - [MITRE attack framework](https://attack.mitre.org/)
 - [Cloud Security Vulnerabilities](https://media.defense.gov/2020/Jan/22/2002237484/-1/-1/0/CSI-MITIGATING-CLOUD-VULNERABILITIES_20200121.PDF)
 - [NIST container security guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-190.pdf)
+- [PKI explained clearly](https://smallstep.com/blog/everything-pki/)
 
 ## Identity and Access Management
 - [ OAuth explained-1](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
