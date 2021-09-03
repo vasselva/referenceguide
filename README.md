@@ -34,3 +34,8 @@ layout: default
 ## Hardening guides
 
 - [Hardening guides](https://github.com/dev-sec)
+
+## Useful Commands
+**csv to Markdown conversion
+
+pandoc.exe test.csv -o test.md -f csv -t gfm-hard_line_breaks-pipe_tables+ascii_identifiers-autolink_bare_uris+gfm_auto_identifiers+raw_html  --columns=999 --wrap=none
